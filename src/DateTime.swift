@@ -251,7 +251,7 @@ extension DateTime
 
     :returns: A new DateTime modified by the number of seconds.
     */
-    public func add(seconds: Int) -> DateTime
+    public func add(_ seconds: Int) -> DateTime
     {
         let timespan = TimeSpan(days: 0, hours: 0, minutes: 0, seconds: seconds)
         return self.add(timespan: timespan)
@@ -316,7 +316,7 @@ extension DateTime
 
     :returns: The timespan since the current date.
     */
-    public func timespanSince(datetime: DateTime) -> TimeSpan
+    public func timespanSince(_ datetime: DateTime) -> TimeSpan
     {
         let timeInterval = self.internalDate.timeIntervalSince(datetime.internalDate)
         return TimeSpan(timeInterval: timeInterval)
@@ -335,9 +335,9 @@ extension DateTime: CustomStringConvertible
 
     :returns: The DateTime string value.
     */
-    public func stringValue(format: DateTimeStringFormat) -> String
+    public func stringValue(_ format: DateTimeStringFormat) -> String
     {
-        return self.stringValue(format: format.rawValue)
+        return self.stringValue(format.rawValue)
     }
 
     /**
@@ -347,7 +347,7 @@ extension DateTime: CustomStringConvertible
 
     :returns: The DateTime string value.
     */
-    public func stringValue(format: String) -> String
+    public func stringValue(_ format: String) -> String
     {
         let dateFormatter = DateFormatter.sharedFormatter
         dateFormatter.dateFormat = format
@@ -359,7 +359,8 @@ extension DateTime: CustomStringConvertible
     /// The description of the DateTime; this defaults to DateTimeStringFormat.Full
     public var description: String {
         get {
-            return self.stringValue(format: .Full)
+            return self.stringValue(
+                .Full)
         }
     }
 }

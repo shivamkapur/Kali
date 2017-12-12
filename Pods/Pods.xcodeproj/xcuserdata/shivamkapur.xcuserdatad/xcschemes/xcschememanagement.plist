@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>Kali.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
+		<key>Nimble.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>4</integer>
+		</dict>
+		<key>Pods-DateTime-Tests.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>5</integer>
+		</dict>
+		<key>Quick.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>6</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>2C2D13B00C24638D54F22379F8ADB5AF</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>3424ACC449A73C2EBECF72109256EEB1</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>A2D06F9BA6253C3969C945C741A32036</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>FF61C7C740C1B196A3B33F37B77DBC68</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>

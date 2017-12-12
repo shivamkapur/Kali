@@ -1,0 +1,10 @@
+version: "Apple Swift version 3.1 (swiftlang-802.0.53 clang-802.0.42)"
+options: "f49fcc2d152040bf97552b47cc2e2cd6"
+build_time: [566406816, 940192000]
+inputs:
+  "/Users/shivamkapur/Desktop/Kali/src/DateTime.swift": !dirty [566406816, 0]
+  "/Users/shivamkapur/Desktop/Kali/src/DateTimeStringFormat.swift": [566406182, 0]
+  "/Users/shivamkapur/Desktop/Kali/src/Month.swift": [566406182, 0]
+  "/Users/shivamkapur/Desktop/Kali/src/NSDateFormatter+Extensions.swift": [566406182, 0]
+  "/Users/shivamkapur/Desktop/Kali/src/Timespan.swift": [566406182, 0]
+  "/Users/shivamkapur/Desktop/Kali/src/Weekday.swift": [566406182, 0]

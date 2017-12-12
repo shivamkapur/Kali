@@ -1,0 +1,13 @@
+{
+  'version': 0,
+  'case-sensitive': 'false',
+  'roots': [{
+    'type': 'directory',
+    'name': '/Users/shivamkapur/Desktop/Kali/DerivedData/DateTime/Build/Products/Debug-iphonesimulator/Kali.framework/Modules'
+    'contents': [{
+      'type': 'file',
+      'name': 'module.modulemap',
+      'external-contents': '/Users/shivamkapur/Desktop/Kali/DerivedData/DateTime/Build/Intermediates/Pods.build/Debug-iphonesimulator/Kali.build/unextended-module.modulemap',
+    }]
+  }]
+}

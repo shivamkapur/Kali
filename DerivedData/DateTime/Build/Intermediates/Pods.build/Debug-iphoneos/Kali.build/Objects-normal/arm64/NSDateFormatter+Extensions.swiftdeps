@@ -1,0 +1,76 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+provides-nominal:
+provides-member:
+- ["CSo13DateFormatter", ""]
+- ["CSo13DateFormatter", "sharedFormatter"]
+provides-dynamic-lookup:
+- "sharedFormatter"
+depends-top-level:
+- "DateFormatter"
+depends-member:
+- !private ["Ps9AnyObject", "DateFormatter"]
+- !private ["Ps9AnyObject", "init"]
+- !private ["Ps7CVarArg", "DateFormatter"]
+- !private ["Ps7CVarArg", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "DateFormatter"]
+- !private ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "DateFormatter"]
+- !private ["Ps23CustomStringConvertible", "init"]
+- ["CSo13DateFormatter", "DateFormatter"]
+- !private ["CSo13DateFormatter", "init"]
+- ["CSo13DateFormatter", "sharedFormatter"]
+- !private ["Ps9Equatable", "DateFormatter"]
+- !private ["Ps9Equatable", "init"]
+- ["CSo9Formatter", "DateFormatter"]
+- !private ["CSo9Formatter", "init"]
+- ["CSo9Formatter", "sharedFormatter"]
+- !private ["Ps8Hashable", "DateFormatter"]
+- !private ["Ps8Hashable", "init"]
+- !private ["PSo8NSCoding", "DateFormatter"]
+- !private ["PSo8NSCoding", "init"]
+- !private ["PSo9NSCopying", "DateFormatter"]
+- !private ["PSo9NSCopying", "init"]
+- ["CSo8NSObject", "DateFormatter"]
+- !private ["CSo8NSObject", "init"]
+- ["CSo8NSObject", "sharedFormatter"]
+- !private ["PSo16NSObjectProtocol", "DateFormatter"]
+- !private ["PSo16NSObjectProtocol", "init"]
+- !private ["Ps9_Hashable", "DateFormatter"]
+- !private ["Ps9_Hashable", "init"]
+depends-nominal:
+- !private "Ps9AnyObject"
+- !private "Ps7CVarArg"
+- !private "Ps28CustomDebugStringConvertible"
+- !private "Ps23CustomStringConvertible"
+- "CSo13DateFormatter"
+- !private "Ps9Equatable"
+- "CSo9Formatter"
+- !private "Ps8Hashable"
+- !private "PSo8NSCoding"
+- !private "PSo9NSCopying"
+- "CSo8NSObject"
+- !private "PSo16NSObjectProtocol"
+- !private "Ps9_Hashable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode 8.3.3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.apinotesc"
+- "/Applications/Xcode 8.3.3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.apinotesc"
+- "/Applications/Xcode 8.3.3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Metal.apinotesc"
+- "/Applications/Xcode 8.3.3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.apinotesc"
+- "/Applications/Xcode 8.3.3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.apinotesc"
+- "/Applications/Xcode 8.3.3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.apinotesc"
+- "/Applications/Xcode 8.3.3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreText.apinotesc"
+- "/Applications/Xcode 8.3.3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode 8.3.3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+- "/Applications/Xcode 8.3.3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/QuartzCore.swiftmodule"
+- "/Applications/Xcode 8.3.3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode 8.3.3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode 8.3.3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode 8.3.3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode 8.3.3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Applications/Xcode 8.3.3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode 8.3.3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/SwiftOnoneSupport.swiftmodule"
+- "/Users/shivamkapur/Desktop/Kali/Pods/Target Support Files/Kali/Kali-umbrella.h"
+- "/Users/shivamkapur/Desktop/Kali/DerivedData/DateTime/Build/Intermediates/Pods.build/Debug-iphoneos/Kali.build/unextended-module.modulemap"
+interface-hash: "3ae4cff4206a26036be3e36dcc2db12c"
