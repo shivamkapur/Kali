@@ -7,4 +7,5 @@ framework module Kali {
 
 module Kali.Swift {
     header "Kali-Swift.h"
+    requires objc
 }

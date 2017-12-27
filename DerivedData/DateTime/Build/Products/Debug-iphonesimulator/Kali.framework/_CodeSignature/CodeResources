@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/Kali-Swift.h</key>
 		<data>
-		e/IyY5opoXcXc+t2EIpliwg1VAk=
+		j5YH1lHXkpO0kkVGyPeY1f3Ui80=
 		</data>
 		<key>Headers/Kali-umbrella.h</key>
 		<data>
@@ -14,19 +14,19 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		w6vUIr96p7udfPQnPT7suRqDMzo=
+		p9ONpzY4RY0MeS8sBa3X6t+Y9WU=
 		</data>
 		<key>Modules/Kali.swiftmodule/x86_64.swiftdoc</key>
 		<data>
-		s4ivgDNwQN6gFPEEtqFYDCvEobw=
+		uYYml8nGdba8k/yD3OLqdkQLNXc=
 		</data>
 		<key>Modules/Kali.swiftmodule/x86_64.swiftmodule</key>
 		<data>
-		cggDF4edQgy/0gk+CykUyKfbV20=
+		zJXti26c06vUf+EgxN5gfgn7INM=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
-		nZo0vFRnQXFVCq/Shd2Cv1VQa1Y=
+		r7XD89i2/0AkgsPsNwurzXdJHxk=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -35,11 +35,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			e/IyY5opoXcXc+t2EIpliwg1VAk=
+			j5YH1lHXkpO0kkVGyPeY1f3Ui80=
 			</data>
 			<key>hash2</key>
 			<data>
-			m9x4cY+L6T7jK1zL1DPtOzyy33bMX5i5LDfDsIzKeWk=
+			lDm6fUb11Bm9IbFo2EwEG8/wJRz8lgd/O87aDTCtERI=
 			</data>
 		</dict>
 		<key>Headers/Kali-umbrella.h</key>
@@ -57,33 +57,33 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			s4ivgDNwQN6gFPEEtqFYDCvEobw=
+			uYYml8nGdba8k/yD3OLqdkQLNXc=
 			</data>
 			<key>hash2</key>
 			<data>
-			6Kw3IvrkR3BK68QLLgExyaDzuyes7GmBUkN++BDFXuY=
+			RRcWnC8JQOtw/19NQ4KlztS/aT6bWa4tTlPulSH8ED4=
 			</data>
 		</dict>
 		<key>Modules/Kali.swiftmodule/x86_64.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			cggDF4edQgy/0gk+CykUyKfbV20=
+			zJXti26c06vUf+EgxN5gfgn7INM=
 			</data>
 			<key>hash2</key>
 			<data>
-			8pU3wALxB7kIISE2UHrXQ2GJkjH+lfevxFDNs4VHln0=
+			IR2hBFgA0ajywslmtqmpwjLcUMfCFvreA0DibIGTDI4=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			nZo0vFRnQXFVCq/Shd2Cv1VQa1Y=
+			r7XD89i2/0AkgsPsNwurzXdJHxk=
 			</data>
 			<key>hash2</key>
 			<data>
-			AHSdaGINQ8dpWMi+lAYFsrx8ZqR2QOa5KBhy/yHM2pM=
+			YG8cqbBuXf2skgMfO902W4Lszq5lhTveMRU3Os5IDMA=
 			</data>
 		</dict>
 	</dict>
