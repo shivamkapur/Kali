@@ -1,0 +1,934 @@
+16:22:08.763 Xcode[41534:946433] Beginning test session DateTime-Tests-0813B018-33B1-4FCA-BB3C-641BCD564B96 at 2017-12-27 16:22:08.762 with Xcode 9C40b on target <DVTiPhoneSimulator: 0x7fd1740e05a0> {
+		SimDevice: iPhone X (C3529968-A2DF-4E45-88D3-E4085FD2D7FD, iOS 11.2, Booted)
+} (11.2 (15C107))
+16:22:08.764 Xcode[41534:946433] Launching with Xcode.DebuggerFoundation.Launcher.LLDB
+16:22:08.767 Xcode[41534:946433] Test standard output and standard error is at /var/folders/bd/h6cnkgn900lfsytwtxwzjclh0000gn/T/com.apple.dt.XCTest/IDETestRunSession-5BF587DF-2EAB-42B6-986E-D6822118D60E/DateTime-Tests-CCE3EEB8-A0C3-45C0-BBBD-B46489D8D79A/StandardOutputAndStandardError.txt
+16:22:08.768 Xcode[41534:946433] Simulator C3529968-A2DF-4E45-88D3-E4085FD2D7FD was claimed by TestSessionClaim_IDETestRunSession-5BF587DF-2EAB-42B6-986E-D6822118D60E
+16:22:08.778 Xcode[41534:946433] Updating list of devices in SimDeviceSet
+16:22:08.783 Xcode[41534:946433] Adding any devices not yet represented in list
+16:22:08.783 Xcode[41534:946433] Removing any devices that have been removed
+16:22:08.785 Xcode[41534:946433] Updating list of devices in SimDeviceSet
+16:22:08.795 Xcode[41534:946433] Adding any devices not yet represented in list
+16:22:08.795 Xcode[41534:946433] Removing any devices that have been removed
+16:22:08.822 Xcode[41534:946433] C3529968-A2DF-4E45-88D3-E4085FD2D7FD: Received sim device notification: {
+    notification = "availableDevices_changed";
+}
+16:22:08.823 Xcode[41534:946433] C3529968-A2DF-4E45-88D3-E4085FD2D7FD: Received sim device notification: {
+    device = "iPhone X (C3529968-A2DF-4E45-88D3-E4085FD2D7FD, iOS 11.2, Booted)";
+    "new_state" = 2;
+    notification = "device_state";
+    "prev_state" = 1;
+}
+16:22:08.823 Xcode[41534:946433] C3529968-A2DF-4E45-88D3-E4085FD2D7FD: Received sim device notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 0 (Booting), elapsed = 0.000000, isTerminal = 0, info = (null) }";
+    device = "iPhone X (C3529968-A2DF-4E45-88D3-E4085FD2D7FD, iOS 11.2, Booted)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+16:22:08.823 Xcode[41534:946433] C3529968-A2DF-4E45-88D3-E4085FD2D7FD: Received sim device notification: {
+    notification = "availableDevices_changed";
+}
+16:22:08.823 Xcode[41534:946433] C3529968-A2DF-4E45-88D3-E4085FD2D7FD: Received sim device notification: {
+    device = "iPhone X (C3529968-A2DF-4E45-88D3-E4085FD2D7FD, iOS 11.2, Booted)";
+    "new_state" = 3;
+    notification = "device_state";
+    "prev_state" = 2;
+}
+16:22:08.823 Xcode[41534:946433] /Users/shivamkapur/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    notification = "availableDevices_changed";
+}
+16:22:08.823 Xcode[41534:946433] /Users/shivamkapur/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    notification = "availableDevices_changed";
+}
+16:22:08.823 Xcode[41534:946433] /Users/shivamkapur/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    notification = "availableDevices_changed";
+}
+16:22:08.823 Xcode[41534:946433] /Users/shivamkapur/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    notification = "availableDevices_changed";
+}
+16:22:08.823 Xcode[41534:946433] /Users/shivamkapur/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    notification = "availableDevices_changed";
+}
+16:22:08.823 Xcode[41534:946433] /Users/shivamkapur/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    notification = "availableDevices_changed";
+}
+16:22:08.823 Xcode[41534:946433] /Users/shivamkapur/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    notification = "availableDevices_changed";
+}
+16:22:08.823 Xcode[41534:946433] /Users/shivamkapur/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    notification = "availableDevices_changed";
+}
+16:22:08.823 Xcode[41534:946433] /Users/shivamkapur/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    notification = "availableDevices_changed";
+}
+16:22:08.823 Xcode[41534:946433] /Users/shivamkapur/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    notification = "availableDevices_changed";
+}
+16:22:08.823 Xcode[41534:946433] /Users/shivamkapur/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    notification = "availableDevices_changed";
+}
+16:22:08.823 Xcode[41534:946433] /Users/shivamkapur/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    notification = "availableDevices_changed";
+}
+16:22:08.824 Xcode[41534:946433] /Users/shivamkapur/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    notification = "availableDevices_changed";
+}
+16:22:08.824 Xcode[41534:946433] /Users/shivamkapur/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    notification = "availableDevices_changed";
+}
+16:22:08.824 Xcode[41534:946433] /Users/shivamkapur/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    notification = "availableDevices_changed";
+}
+16:22:08.824 Xcode[41534:946433] /Users/shivamkapur/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    notification = "availableDevices_changed";
+}
+16:22:08.824 Xcode[41534:946433] /Users/shivamkapur/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    notification = "availableDevices_changed";
+}
+16:22:08.824 Xcode[41534:946433] /Users/shivamkapur/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    notification = "availableDevices_changed";
+}
+16:22:08.824 Xcode[41534:946433] /Users/shivamkapur/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    notification = "availableDevices_changed";
+}
+16:22:08.824 Xcode[41534:946433] /Users/shivamkapur/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    notification = "availableDevices_changed";
+}
+16:22:08.824 Xcode[41534:946433] /Users/shivamkapur/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    notification = "availableDevices_changed";
+}
+16:22:08.824 Xcode[41534:946433] /Users/shivamkapur/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    notification = "availableDevices_changed";
+}
+16:22:08.824 Xcode[41534:946433] /Users/shivamkapur/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    notification = "availableDevices_changed";
+}
+16:22:08.825 Xcode[41534:946433] /Users/shivamkapur/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    notification = "availableDevices_changed";
+}
+16:22:08.827 Xcode[41534:946433] /Users/shivamkapur/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    notification = "availableDevices_changed";
+}
+16:22:08.828 Xcode[41534:946433] /Users/shivamkapur/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    notification = "availableDevices_changed";
+}
+16:22:08.828 Xcode[41534:946433] /Users/shivamkapur/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    notification = "availableDevices_changed";
+}
+16:22:08.828 Xcode[41534:946433] /Users/shivamkapur/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    notification = "availableDevices_changed";
+}
+16:22:08.828 Xcode[41534:946433] /Users/shivamkapur/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    notification = "availableDevices_changed";
+}
+16:22:08.828 Xcode[41534:946433] /Users/shivamkapur/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    notification = "availableDevices_changed";
+}
+16:22:08.828 Xcode[41534:946433] /Users/shivamkapur/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    notification = "availableDevices_changed";
+}
+16:22:08.828 Xcode[41534:946433] /Users/shivamkapur/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    notification = "availableDevices_changed";
+}
+16:22:08.829 Xcode[41534:946433] /Users/shivamkapur/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    notification = "availableDevices_changed";
+}
+16:22:08.829 Xcode[41534:946433] /Users/shivamkapur/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    notification = "availableDevices_changed";
+}
+16:22:08.829 Xcode[41534:946433] /Users/shivamkapur/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    notification = "availableDevices_changed";
+}
+16:22:08.829 Xcode[41534:946433] /Users/shivamkapur/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    notification = "availableDevices_changed";
+}
+16:22:08.829 Xcode[41534:946433] /Users/shivamkapur/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    notification = "availableDevices_changed";
+}
+16:22:08.829 Xcode[41534:946433] /Users/shivamkapur/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    notification = "availableDevices_changed";
+}
+16:22:08.829 Xcode[41534:946433] /Users/shivamkapur/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    notification = "availableDevices_changed";
+}
+16:22:08.829 Xcode[41534:946433] /Users/shivamkapur/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone X (C3529968-A2DF-4E45-88D3-E4085FD2D7FD, iOS 11.2, Booted)";
+    "new_state" = 2;
+    notification = "device_state";
+    "prev_state" = 1;
+}
+16:22:08.829 Xcode[41534:946433] /Users/shivamkapur/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone X (C3529968-A2DF-4E45-88D3-E4085FD2D7FD, iOS 11.2, Booted)";
+    "new_state" = 2;
+    notification = "device_state";
+    "prev_state" = 1;
+}
+16:22:08.829 Xcode[41534:946433] /Users/shivamkapur/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone X (C3529968-A2DF-4E45-88D3-E4085FD2D7FD, iOS 11.2, Booted)";
+    "new_state" = 2;
+    notification = "device_state";
+    "prev_state" = 1;
+}
+16:22:08.830 Xcode[41534:946433] /Users/shivamkapur/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone X (C3529968-A2DF-4E45-88D3-E4085FD2D7FD, iOS 11.2, Booted)";
+    "new_state" = 2;
+    notification = "device_state";
+    "prev_state" = 1;
+}
+16:22:08.830 Xcode[41534:946433] /Users/shivamkapur/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone X (C3529968-A2DF-4E45-88D3-E4085FD2D7FD, iOS 11.2, Booted)";
+    "new_state" = 2;
+    notification = "device_state";
+    "prev_state" = 1;
+}
+16:22:08.830 Xcode[41534:946433] /Users/shivamkapur/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone X (C3529968-A2DF-4E45-88D3-E4085FD2D7FD, iOS 11.2, Booted)";
+    "new_state" = 2;
+    notification = "device_state";
+    "prev_state" = 1;
+}
+16:22:08.830 Xcode[41534:946433] /Users/shivamkapur/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone X (C3529968-A2DF-4E45-88D3-E4085FD2D7FD, iOS 11.2, Booted)";
+    "new_state" = 2;
+    notification = "device_state";
+    "prev_state" = 1;
+}
+16:22:08.830 Xcode[41534:946433] /Users/shivamkapur/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone X (C3529968-A2DF-4E45-88D3-E4085FD2D7FD, iOS 11.2, Booted)";
+    "new_state" = 2;
+    notification = "device_state";
+    "prev_state" = 1;
+}
+16:22:08.830 Xcode[41534:946433] /Users/shivamkapur/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone X (C3529968-A2DF-4E45-88D3-E4085FD2D7FD, iOS 11.2, Booted)";
+    "new_state" = 2;
+    notification = "device_state";
+    "prev_state" = 1;
+}
+16:22:08.830 Xcode[41534:946433] /Users/shivamkapur/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone X (C3529968-A2DF-4E45-88D3-E4085FD2D7FD, iOS 11.2, Booted)";
+    "new_state" = 2;
+    notification = "device_state";
+    "prev_state" = 1;
+}
+16:22:08.830 Xcode[41534:946433] /Users/shivamkapur/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone X (C3529968-A2DF-4E45-88D3-E4085FD2D7FD, iOS 11.2, Booted)";
+    "new_state" = 2;
+    notification = "device_state";
+    "prev_state" = 1;
+}
+16:22:08.830 Xcode[41534:946433] /Users/shivamkapur/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone X (C3529968-A2DF-4E45-88D3-E4085FD2D7FD, iOS 11.2, Booted)";
+    "new_state" = 2;
+    notification = "device_state";
+    "prev_state" = 1;
+}
+16:22:08.831 Xcode[41534:946433] /Users/shivamkapur/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone X (C3529968-A2DF-4E45-88D3-E4085FD2D7FD, iOS 11.2, Booted)";
+    "new_state" = 2;
+    notification = "device_state";
+    "prev_state" = 1;
+}
+16:22:08.831 Xcode[41534:946433] /Users/shivamkapur/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone X (C3529968-A2DF-4E45-88D3-E4085FD2D7FD, iOS 11.2, Booted)";
+    "new_state" = 2;
+    notification = "device_state";
+    "prev_state" = 1;
+}
+16:22:08.831 Xcode[41534:946433] /Users/shivamkapur/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone X (C3529968-A2DF-4E45-88D3-E4085FD2D7FD, iOS 11.2, Booted)";
+    "new_state" = 2;
+    notification = "device_state";
+    "prev_state" = 1;
+}
+16:22:08.831 Xcode[41534:946433] /Users/shivamkapur/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone X (C3529968-A2DF-4E45-88D3-E4085FD2D7FD, iOS 11.2, Booted)";
+    "new_state" = 2;
+    notification = "device_state";
+    "prev_state" = 1;
+}
+16:22:08.831 Xcode[41534:946433] /Users/shivamkapur/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone X (C3529968-A2DF-4E45-88D3-E4085FD2D7FD, iOS 11.2, Booted)";
+    "new_state" = 2;
+    notification = "device_state";
+    "prev_state" = 1;
+}
+16:22:08.831 Xcode[41534:946433] /Users/shivamkapur/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone X (C3529968-A2DF-4E45-88D3-E4085FD2D7FD, iOS 11.2, Booted)";
+    "new_state" = 2;
+    notification = "device_state";
+    "prev_state" = 1;
+}
+16:22:08.831 Xcode[41534:946433] /Users/shivamkapur/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone X (C3529968-A2DF-4E45-88D3-E4085FD2D7FD, iOS 11.2, Booted)";
+    "new_state" = 2;
+    notification = "device_state";
+    "prev_state" = 1;
+}
+16:22:08.831 Xcode[41534:946433] /Users/shivamkapur/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone X (C3529968-A2DF-4E45-88D3-E4085FD2D7FD, iOS 11.2, Booted)";
+    "new_state" = 2;
+    notification = "device_state";
+    "prev_state" = 1;
+}
+16:22:08.832 Xcode[41534:946433] /Users/shivamkapur/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone X (C3529968-A2DF-4E45-88D3-E4085FD2D7FD, iOS 11.2, Booted)";
+    "new_state" = 2;
+    notification = "device_state";
+    "prev_state" = 1;
+}
+16:22:08.832 Xcode[41534:946433] /Users/shivamkapur/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone X (C3529968-A2DF-4E45-88D3-E4085FD2D7FD, iOS 11.2, Booted)";
+    "new_state" = 2;
+    notification = "device_state";
+    "prev_state" = 1;
+}
+16:22:08.832 Xcode[41534:946433] /Users/shivamkapur/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone X (C3529968-A2DF-4E45-88D3-E4085FD2D7FD, iOS 11.2, Booted)";
+    "new_state" = 2;
+    notification = "device_state";
+    "prev_state" = 1;
+}
+16:22:08.832 Xcode[41534:946433] /Users/shivamkapur/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone X (C3529968-A2DF-4E45-88D3-E4085FD2D7FD, iOS 11.2, Booted)";
+    "new_state" = 2;
+    notification = "device_state";
+    "prev_state" = 1;
+}
+16:22:08.832 Xcode[41534:946433] /Users/shivamkapur/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone X (C3529968-A2DF-4E45-88D3-E4085FD2D7FD, iOS 11.2, Booted)";
+    "new_state" = 2;
+    notification = "device_state";
+    "prev_state" = 1;
+}
+16:22:08.832 Xcode[41534:946433] /Users/shivamkapur/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone X (C3529968-A2DF-4E45-88D3-E4085FD2D7FD, iOS 11.2, Booted)";
+    "new_state" = 2;
+    notification = "device_state";
+    "prev_state" = 1;
+}
+16:22:08.832 Xcode[41534:946433] /Users/shivamkapur/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone X (C3529968-A2DF-4E45-88D3-E4085FD2D7FD, iOS 11.2, Booted)";
+    "new_state" = 2;
+    notification = "device_state";
+    "prev_state" = 1;
+}
+16:22:08.833 Xcode[41534:946433] /Users/shivamkapur/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone X (C3529968-A2DF-4E45-88D3-E4085FD2D7FD, iOS 11.2, Booted)";
+    "new_state" = 2;
+    notification = "device_state";
+    "prev_state" = 1;
+}
+16:22:08.833 Xcode[41534:946433] /Users/shivamkapur/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone X (C3529968-A2DF-4E45-88D3-E4085FD2D7FD, iOS 11.2, Booted)";
+    "new_state" = 2;
+    notification = "device_state";
+    "prev_state" = 1;
+}
+16:22:08.833 Xcode[41534:946433] /Users/shivamkapur/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone X (C3529968-A2DF-4E45-88D3-E4085FD2D7FD, iOS 11.2, Booted)";
+    "new_state" = 2;
+    notification = "device_state";
+    "prev_state" = 1;
+}
+16:22:08.833 Xcode[41534:946433] /Users/shivamkapur/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone X (C3529968-A2DF-4E45-88D3-E4085FD2D7FD, iOS 11.2, Booted)";
+    "new_state" = 2;
+    notification = "device_state";
+    "prev_state" = 1;
+}
+16:22:08.833 Xcode[41534:946433] /Users/shivamkapur/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone X (C3529968-A2DF-4E45-88D3-E4085FD2D7FD, iOS 11.2, Booted)";
+    "new_state" = 2;
+    notification = "device_state";
+    "prev_state" = 1;
+}
+16:22:08.833 Xcode[41534:946433] /Users/shivamkapur/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone X (C3529968-A2DF-4E45-88D3-E4085FD2D7FD, iOS 11.2, Booted)";
+    "new_state" = 2;
+    notification = "device_state";
+    "prev_state" = 1;
+}
+16:22:08.833 Xcode[41534:946433] /Users/shivamkapur/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone X (C3529968-A2DF-4E45-88D3-E4085FD2D7FD, iOS 11.2, Booted)";
+    "new_state" = 2;
+    notification = "device_state";
+    "prev_state" = 1;
+}
+16:22:08.833 Xcode[41534:946433] /Users/shivamkapur/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone X (C3529968-A2DF-4E45-88D3-E4085FD2D7FD, iOS 11.2, Booted)";
+    "new_state" = 2;
+    notification = "device_state";
+    "prev_state" = 1;
+}
+16:22:08.833 Xcode[41534:946433] /Users/shivamkapur/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone X (C3529968-A2DF-4E45-88D3-E4085FD2D7FD, iOS 11.2, Booted)";
+    "new_state" = 2;
+    notification = "device_state";
+    "prev_state" = 1;
+}
+16:22:08.834 Xcode[41534:946433] /Users/shivamkapur/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone X (C3529968-A2DF-4E45-88D3-E4085FD2D7FD, iOS 11.2, Booted)";
+    "new_state" = 2;
+    notification = "device_state";
+    "prev_state" = 1;
+}
+16:22:08.834 Xcode[41534:946433] /Users/shivamkapur/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone X (C3529968-A2DF-4E45-88D3-E4085FD2D7FD, iOS 11.2, Booted)";
+    "new_state" = 2;
+    notification = "device_state";
+    "prev_state" = 1;
+}
+16:22:08.834 Xcode[41534:946433] /Users/shivamkapur/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone X (C3529968-A2DF-4E45-88D3-E4085FD2D7FD, iOS 11.2, Booted)";
+    "new_state" = 2;
+    notification = "device_state";
+    "prev_state" = 1;
+}
+16:22:08.834 Xcode[41534:946433] /Users/shivamkapur/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 0 (Booting), elapsed = 0.000000, isTerminal = 0, info = (null) }";
+    device = "iPhone X (C3529968-A2DF-4E45-88D3-E4085FD2D7FD, iOS 11.2, Booted)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+16:22:08.834 Xcode[41534:946433] /Users/shivamkapur/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 0 (Booting), elapsed = 0.000000, isTerminal = 0, info = (null) }";
+    device = "iPhone X (C3529968-A2DF-4E45-88D3-E4085FD2D7FD, iOS 11.2, Booted)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+16:22:08.834 Xcode[41534:946433] /Users/shivamkapur/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 0 (Booting), elapsed = 0.000000, isTerminal = 0, info = (null) }";
+    device = "iPhone X (C3529968-A2DF-4E45-88D3-E4085FD2D7FD, iOS 11.2, Booted)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+16:22:08.834 Xcode[41534:946433] /Users/shivamkapur/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 0 (Booting), elapsed = 0.000000, isTerminal = 0, info = (null) }";
+    device = "iPhone X (C3529968-A2DF-4E45-88D3-E4085FD2D7FD, iOS 11.2, Booted)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+16:22:08.834 Xcode[41534:946433] /Users/shivamkapur/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 0 (Booting), elapsed = 0.000000, isTerminal = 0, info = (null) }";
+    device = "iPhone X (C3529968-A2DF-4E45-88D3-E4085FD2D7FD, iOS 11.2, Booted)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+16:22:08.834 Xcode[41534:946433] /Users/shivamkapur/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 0 (Booting), elapsed = 0.000000, isTerminal = 0, info = (null) }";
+    device = "iPhone X (C3529968-A2DF-4E45-88D3-E4085FD2D7FD, iOS 11.2, Booted)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+16:22:08.834 Xcode[41534:946433] /Users/shivamkapur/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 0 (Booting), elapsed = 0.000000, isTerminal = 0, info = (null) }";
+    device = "iPhone X (C3529968-A2DF-4E45-88D3-E4085FD2D7FD, iOS 11.2, Booted)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+16:22:08.834 Xcode[41534:946433] /Users/shivamkapur/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 0 (Booting), elapsed = 0.000000, isTerminal = 0, info = (null) }";
+    device = "iPhone X (C3529968-A2DF-4E45-88D3-E4085FD2D7FD, iOS 11.2, Booted)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+16:22:08.835 Xcode[41534:946433] /Users/shivamkapur/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 0 (Booting), elapsed = 0.000000, isTerminal = 0, info = (null) }";
+    device = "iPhone X (C3529968-A2DF-4E45-88D3-E4085FD2D7FD, iOS 11.2, Booted)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+16:22:08.835 Xcode[41534:946433] /Users/shivamkapur/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 0 (Booting), elapsed = 0.000000, isTerminal = 0, info = (null) }";
+    device = "iPhone X (C3529968-A2DF-4E45-88D3-E4085FD2D7FD, iOS 11.2, Booted)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+16:22:08.835 Xcode[41534:946433] /Users/shivamkapur/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 0 (Booting), elapsed = 0.000000, isTerminal = 0, info = (null) }";
+    device = "iPhone X (C3529968-A2DF-4E45-88D3-E4085FD2D7FD, iOS 11.2, Booted)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+16:22:08.835 Xcode[41534:946433] /Users/shivamkapur/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 0 (Booting), elapsed = 0.000000, isTerminal = 0, info = (null) }";
+    device = "iPhone X (C3529968-A2DF-4E45-88D3-E4085FD2D7FD, iOS 11.2, Booted)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+16:22:08.835 Xcode[41534:946433] /Users/shivamkapur/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 0 (Booting), elapsed = 0.000000, isTerminal = 0, info = (null) }";
+    device = "iPhone X (C3529968-A2DF-4E45-88D3-E4085FD2D7FD, iOS 11.2, Booted)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+16:22:08.835 Xcode[41534:946433] /Users/shivamkapur/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 0 (Booting), elapsed = 0.000000, isTerminal = 0, info = (null) }";
+    device = "iPhone X (C3529968-A2DF-4E45-88D3-E4085FD2D7FD, iOS 11.2, Booted)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+16:22:08.835 Xcode[41534:946433] /Users/shivamkapur/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 0 (Booting), elapsed = 0.000000, isTerminal = 0, info = (null) }";
+    device = "iPhone X (C3529968-A2DF-4E45-88D3-E4085FD2D7FD, iOS 11.2, Booted)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+16:22:08.835 Xcode[41534:946433] /Users/shivamkapur/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 0 (Booting), elapsed = 0.000000, isTerminal = 0, info = (null) }";
+    device = "iPhone X (C3529968-A2DF-4E45-88D3-E4085FD2D7FD, iOS 11.2, Booted)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+16:22:08.835 Xcode[41534:946433] /Users/shivamkapur/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 0 (Booting), elapsed = 0.000000, isTerminal = 0, info = (null) }";
+    device = "iPhone X (C3529968-A2DF-4E45-88D3-E4085FD2D7FD, iOS 11.2, Booted)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+16:22:08.836 Xcode[41534:946433] /Users/shivamkapur/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 0 (Booting), elapsed = 0.000000, isTerminal = 0, info = (null) }";
+    device = "iPhone X (C3529968-A2DF-4E45-88D3-E4085FD2D7FD, iOS 11.2, Booted)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+16:22:08.836 Xcode[41534:946433] /Users/shivamkapur/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 0 (Booting), elapsed = 0.000000, isTerminal = 0, info = (null) }";
+    device = "iPhone X (C3529968-A2DF-4E45-88D3-E4085FD2D7FD, iOS 11.2, Booted)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+16:22:08.836 Xcode[41534:946433] /Users/shivamkapur/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 0 (Booting), elapsed = 0.000000, isTerminal = 0, info = (null) }";
+    device = "iPhone X (C3529968-A2DF-4E45-88D3-E4085FD2D7FD, iOS 11.2, Booted)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+16:22:08.836 Xcode[41534:946433] /Users/shivamkapur/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 0 (Booting), elapsed = 0.000000, isTerminal = 0, info = (null) }";
+    device = "iPhone X (C3529968-A2DF-4E45-88D3-E4085FD2D7FD, iOS 11.2, Booted)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+16:22:08.836 Xcode[41534:946433] /Users/shivamkapur/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 0 (Booting), elapsed = 0.000000, isTerminal = 0, info = (null) }";
+    device = "iPhone X (C3529968-A2DF-4E45-88D3-E4085FD2D7FD, iOS 11.2, Booted)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+16:22:08.836 Xcode[41534:946433] /Users/shivamkapur/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 0 (Booting), elapsed = 0.000000, isTerminal = 0, info = (null) }";
+    device = "iPhone X (C3529968-A2DF-4E45-88D3-E4085FD2D7FD, iOS 11.2, Booted)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+16:22:08.836 Xcode[41534:946433] /Users/shivamkapur/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 0 (Booting), elapsed = 0.000000, isTerminal = 0, info = (null) }";
+    device = "iPhone X (C3529968-A2DF-4E45-88D3-E4085FD2D7FD, iOS 11.2, Booted)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+16:22:08.836 Xcode[41534:946433] /Users/shivamkapur/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 0 (Booting), elapsed = 0.000000, isTerminal = 0, info = (null) }";
+    device = "iPhone X (C3529968-A2DF-4E45-88D3-E4085FD2D7FD, iOS 11.2, Booted)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+16:22:08.836 Xcode[41534:946433] /Users/shivamkapur/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 0 (Booting), elapsed = 0.000000, isTerminal = 0, info = (null) }";
+    device = "iPhone X (C3529968-A2DF-4E45-88D3-E4085FD2D7FD, iOS 11.2, Booted)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+16:22:08.837 Xcode[41534:946433] /Users/shivamkapur/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 0 (Booting), elapsed = 0.000000, isTerminal = 0, info = (null) }";
+    device = "iPhone X (C3529968-A2DF-4E45-88D3-E4085FD2D7FD, iOS 11.2, Booted)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+16:22:08.837 Xcode[41534:946433] /Users/shivamkapur/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 0 (Booting), elapsed = 0.000000, isTerminal = 0, info = (null) }";
+    device = "iPhone X (C3529968-A2DF-4E45-88D3-E4085FD2D7FD, iOS 11.2, Booted)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+16:22:08.837 Xcode[41534:946433] /Users/shivamkapur/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 0 (Booting), elapsed = 0.000000, isTerminal = 0, info = (null) }";
+    device = "iPhone X (C3529968-A2DF-4E45-88D3-E4085FD2D7FD, iOS 11.2, Booted)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+16:22:08.837 Xcode[41534:946433] /Users/shivamkapur/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 0 (Booting), elapsed = 0.000000, isTerminal = 0, info = (null) }";
+    device = "iPhone X (C3529968-A2DF-4E45-88D3-E4085FD2D7FD, iOS 11.2, Booted)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+16:22:08.837 Xcode[41534:946433] /Users/shivamkapur/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 0 (Booting), elapsed = 0.000000, isTerminal = 0, info = (null) }";
+    device = "iPhone X (C3529968-A2DF-4E45-88D3-E4085FD2D7FD, iOS 11.2, Booted)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+16:22:08.837 Xcode[41534:946433] /Users/shivamkapur/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 0 (Booting), elapsed = 0.000000, isTerminal = 0, info = (null) }";
+    device = "iPhone X (C3529968-A2DF-4E45-88D3-E4085FD2D7FD, iOS 11.2, Booted)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+16:22:08.837 Xcode[41534:946433] /Users/shivamkapur/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 0 (Booting), elapsed = 0.000000, isTerminal = 0, info = (null) }";
+    device = "iPhone X (C3529968-A2DF-4E45-88D3-E4085FD2D7FD, iOS 11.2, Booted)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+16:22:08.837 Xcode[41534:946433] /Users/shivamkapur/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 0 (Booting), elapsed = 0.000000, isTerminal = 0, info = (null) }";
+    device = "iPhone X (C3529968-A2DF-4E45-88D3-E4085FD2D7FD, iOS 11.2, Booted)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+16:22:08.837 Xcode[41534:946433] /Users/shivamkapur/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 0 (Booting), elapsed = 0.000000, isTerminal = 0, info = (null) }";
+    device = "iPhone X (C3529968-A2DF-4E45-88D3-E4085FD2D7FD, iOS 11.2, Booted)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+16:22:08.837 Xcode[41534:946433] /Users/shivamkapur/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 0 (Booting), elapsed = 0.000000, isTerminal = 0, info = (null) }";
+    device = "iPhone X (C3529968-A2DF-4E45-88D3-E4085FD2D7FD, iOS 11.2, Booted)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+16:22:08.838 Xcode[41534:946433] /Users/shivamkapur/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 0 (Booting), elapsed = 0.000000, isTerminal = 0, info = (null) }";
+    device = "iPhone X (C3529968-A2DF-4E45-88D3-E4085FD2D7FD, iOS 11.2, Booted)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+16:22:08.838 Xcode[41534:946433] /Users/shivamkapur/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 0 (Booting), elapsed = 0.000000, isTerminal = 0, info = (null) }";
+    device = "iPhone X (C3529968-A2DF-4E45-88D3-E4085FD2D7FD, iOS 11.2, Booted)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+16:22:08.838 Xcode[41534:946433] /Users/shivamkapur/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 0 (Booting), elapsed = 0.000000, isTerminal = 0, info = (null) }";
+    device = "iPhone X (C3529968-A2DF-4E45-88D3-E4085FD2D7FD, iOS 11.2, Booted)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+16:22:08.838 Xcode[41534:946433] /Users/shivamkapur/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    notification = "availableDevices_changed";
+}
+16:22:08.838 Xcode[41534:946433] /Users/shivamkapur/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    notification = "availableDevices_changed";
+}
+16:22:08.838 Xcode[41534:946433] /Users/shivamkapur/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    notification = "availableDevices_changed";
+}
+16:22:08.838 Xcode[41534:946433] /Users/shivamkapur/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    notification = "availableDevices_changed";
+}
+16:22:08.838 Xcode[41534:946433] /Users/shivamkapur/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    notification = "availableDevices_changed";
+}
+16:22:08.838 Xcode[41534:946433] /Users/shivamkapur/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    notification = "availableDevices_changed";
+}
+16:22:08.838 Xcode[41534:946433] /Users/shivamkapur/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    notification = "availableDevices_changed";
+}
+16:22:08.838 Xcode[41534:946433] /Users/shivamkapur/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    notification = "availableDevices_changed";
+}
+16:22:08.838 Xcode[41534:946433] /Users/shivamkapur/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    notification = "availableDevices_changed";
+}
+16:22:08.839 Xcode[41534:946433] /Users/shivamkapur/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    notification = "availableDevices_changed";
+}
+16:22:08.839 Xcode[41534:946433] /Users/shivamkapur/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    notification = "availableDevices_changed";
+}
+16:22:08.839 Xcode[41534:946433] /Users/shivamkapur/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    notification = "availableDevices_changed";
+}
+16:22:08.839 Xcode[41534:946433] /Users/shivamkapur/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    notification = "availableDevices_changed";
+}
+16:22:08.839 Xcode[41534:946433] /Users/shivamkapur/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    notification = "availableDevices_changed";
+}
+16:22:08.839 Xcode[41534:946433] /Users/shivamkapur/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    notification = "availableDevices_changed";
+}
+16:22:08.839 Xcode[41534:946433] /Users/shivamkapur/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    notification = "availableDevices_changed";
+}
+16:22:08.839 Xcode[41534:946433] /Users/shivamkapur/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    notification = "availableDevices_changed";
+}
+16:22:08.839 Xcode[41534:946433] /Users/shivamkapur/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    notification = "availableDevices_changed";
+}
+16:22:08.839 Xcode[41534:946433] /Users/shivamkapur/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    notification = "availableDevices_changed";
+}
+16:22:08.839 Xcode[41534:946433] /Users/shivamkapur/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    notification = "availableDevices_changed";
+}
+16:22:08.839 Xcode[41534:946433] /Users/shivamkapur/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    notification = "availableDevices_changed";
+}
+16:22:08.839 Xcode[41534:946433] /Users/shivamkapur/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    notification = "availableDevices_changed";
+}
+16:22:08.840 Xcode[41534:946433] /Users/shivamkapur/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    notification = "availableDevices_changed";
+}
+16:22:08.840 Xcode[41534:946433] /Users/shivamkapur/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    notification = "availableDevices_changed";
+}
+16:22:08.840 Xcode[41534:946433] /Users/shivamkapur/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    notification = "availableDevices_changed";
+}
+16:22:08.840 Xcode[41534:946433] /Users/shivamkapur/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    notification = "availableDevices_changed";
+}
+16:22:08.840 Xcode[41534:946433] /Users/shivamkapur/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    notification = "availableDevices_changed";
+}
+16:22:08.840 Xcode[41534:946433] /Users/shivamkapur/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    notification = "availableDevices_changed";
+}
+16:22:08.840 Xcode[41534:946433] /Users/shivamkapur/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    notification = "availableDevices_changed";
+}
+16:22:08.840 Xcode[41534:946433] /Users/shivamkapur/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    notification = "availableDevices_changed";
+}
+16:22:08.840 Xcode[41534:946433] /Users/shivamkapur/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    notification = "availableDevices_changed";
+}
+16:22:08.840 Xcode[41534:946433] /Users/shivamkapur/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    notification = "availableDevices_changed";
+}
+16:22:08.841 Xcode[41534:946433] /Users/shivamkapur/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    notification = "availableDevices_changed";
+}
+16:22:08.841 Xcode[41534:946433] /Users/shivamkapur/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    notification = "availableDevices_changed";
+}
+16:22:08.842 Xcode[41534:946433] /Users/shivamkapur/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    notification = "availableDevices_changed";
+}
+16:22:08.842 Xcode[41534:946433] /Users/shivamkapur/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    notification = "availableDevices_changed";
+}
+16:22:08.842 Xcode[41534:946433] /Users/shivamkapur/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    notification = "availableDevices_changed";
+}
+16:22:08.844 Xcode[41534:946433] /Users/shivamkapur/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    notification = "availableDevices_changed";
+}
+16:22:08.844 Xcode[41534:946433] /Users/shivamkapur/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    notification = "availableDevices_changed";
+}
+16:22:08.844 Xcode[41534:946433] /Users/shivamkapur/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone X (C3529968-A2DF-4E45-88D3-E4085FD2D7FD, iOS 11.2, Booted)";
+    "new_state" = 3;
+    notification = "device_state";
+    "prev_state" = 2;
+}
+16:22:08.844 Xcode[41534:946433] /Users/shivamkapur/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone X (C3529968-A2DF-4E45-88D3-E4085FD2D7FD, iOS 11.2, Booted)";
+    "new_state" = 3;
+    notification = "device_state";
+    "prev_state" = 2;
+}
+16:22:08.845 Xcode[41534:946433] /Users/shivamkapur/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone X (C3529968-A2DF-4E45-88D3-E4085FD2D7FD, iOS 11.2, Booted)";
+    "new_state" = 3;
+    notification = "device_state";
+    "prev_state" = 2;
+}
+16:22:08.845 Xcode[41534:946433] /Users/shivamkapur/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone X (C3529968-A2DF-4E45-88D3-E4085FD2D7FD, iOS 11.2, Booted)";
+    "new_state" = 3;
+    notification = "device_state";
+    "prev_state" = 2;
+}
+16:22:08.845 Xcode[41534:946433] /Users/shivamkapur/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone X (C3529968-A2DF-4E45-88D3-E4085FD2D7FD, iOS 11.2, Booted)";
+    "new_state" = 3;
+    notification = "device_state";
+    "prev_state" = 2;
+}
+16:22:08.845 Xcode[41534:946433] /Users/shivamkapur/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone X (C3529968-A2DF-4E45-88D3-E4085FD2D7FD, iOS 11.2, Booted)";
+    "new_state" = 3;
+    notification = "device_state";
+    "prev_state" = 2;
+}
+16:22:08.845 Xcode[41534:946433] /Users/shivamkapur/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone X (C3529968-A2DF-4E45-88D3-E4085FD2D7FD, iOS 11.2, Booted)";
+    "new_state" = 3;
+    notification = "device_state";
+    "prev_state" = 2;
+}
+16:22:08.846 Xcode[41534:946433] /Users/shivamkapur/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone X (C3529968-A2DF-4E45-88D3-E4085FD2D7FD, iOS 11.2, Booted)";
+    "new_state" = 3;
+    notification = "device_state";
+    "prev_state" = 2;
+}
+16:22:08.846 Xcode[41534:946433] /Users/shivamkapur/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone X (C3529968-A2DF-4E45-88D3-E4085FD2D7FD, iOS 11.2, Booted)";
+    "new_state" = 3;
+    notification = "device_state";
+    "prev_state" = 2;
+}
+16:22:08.846 Xcode[41534:946433] /Users/shivamkapur/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone X (C3529968-A2DF-4E45-88D3-E4085FD2D7FD, iOS 11.2, Booted)";
+    "new_state" = 3;
+    notification = "device_state";
+    "prev_state" = 2;
+}
+16:22:08.846 Xcode[41534:946433] /Users/shivamkapur/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone X (C3529968-A2DF-4E45-88D3-E4085FD2D7FD, iOS 11.2, Booted)";
+    "new_state" = 3;
+    notification = "device_state";
+    "prev_state" = 2;
+}
+16:22:08.846 Xcode[41534:946433] /Users/shivamkapur/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone X (C3529968-A2DF-4E45-88D3-E4085FD2D7FD, iOS 11.2, Booted)";
+    "new_state" = 3;
+    notification = "device_state";
+    "prev_state" = 2;
+}
+16:22:08.846 Xcode[41534:946433] /Users/shivamkapur/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone X (C3529968-A2DF-4E45-88D3-E4085FD2D7FD, iOS 11.2, Booted)";
+    "new_state" = 3;
+    notification = "device_state";
+    "prev_state" = 2;
+}
+16:22:08.846 Xcode[41534:946433] /Users/shivamkapur/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone X (C3529968-A2DF-4E45-88D3-E4085FD2D7FD, iOS 11.2, Booted)";
+    "new_state" = 3;
+    notification = "device_state";
+    "prev_state" = 2;
+}
+16:22:08.846 Xcode[41534:946433] /Users/shivamkapur/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone X (C3529968-A2DF-4E45-88D3-E4085FD2D7FD, iOS 11.2, Booted)";
+    "new_state" = 3;
+    notification = "device_state";
+    "prev_state" = 2;
+}
+16:22:08.846 Xcode[41534:946433] /Users/shivamkapur/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone X (C3529968-A2DF-4E45-88D3-E4085FD2D7FD, iOS 11.2, Booted)";
+    "new_state" = 3;
+    notification = "device_state";
+    "prev_state" = 2;
+}
+16:22:08.847 Xcode[41534:946433] /Users/shivamkapur/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone X (C3529968-A2DF-4E45-88D3-E4085FD2D7FD, iOS 11.2, Booted)";
+    "new_state" = 3;
+    notification = "device_state";
+    "prev_state" = 2;
+}
+16:22:08.847 Xcode[41534:946433] /Users/shivamkapur/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone X (C3529968-A2DF-4E45-88D3-E4085FD2D7FD, iOS 11.2, Booted)";
+    "new_state" = 3;
+    notification = "device_state";
+    "prev_state" = 2;
+}
+16:22:08.847 Xcode[41534:946433] /Users/shivamkapur/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone X (C3529968-A2DF-4E45-88D3-E4085FD2D7FD, iOS 11.2, Booted)";
+    "new_state" = 3;
+    notification = "device_state";
+    "prev_state" = 2;
+}
+16:22:08.847 Xcode[41534:946433] /Users/shivamkapur/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone X (C3529968-A2DF-4E45-88D3-E4085FD2D7FD, iOS 11.2, Booted)";
+    "new_state" = 3;
+    notification = "device_state";
+    "prev_state" = 2;
+}
+16:22:08.847 Xcode[41534:946433] /Users/shivamkapur/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone X (C3529968-A2DF-4E45-88D3-E4085FD2D7FD, iOS 11.2, Booted)";
+    "new_state" = 3;
+    notification = "device_state";
+    "prev_state" = 2;
+}
+16:22:08.847 Xcode[41534:946433] /Users/shivamkapur/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone X (C3529968-A2DF-4E45-88D3-E4085FD2D7FD, iOS 11.2, Booted)";
+    "new_state" = 3;
+    notification = "device_state";
+    "prev_state" = 2;
+}
+16:22:08.847 Xcode[41534:946433] /Users/shivamkapur/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone X (C3529968-A2DF-4E45-88D3-E4085FD2D7FD, iOS 11.2, Booted)";
+    "new_state" = 3;
+    notification = "device_state";
+    "prev_state" = 2;
+}
+16:22:08.847 Xcode[41534:946433] /Users/shivamkapur/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone X (C3529968-A2DF-4E45-88D3-E4085FD2D7FD, iOS 11.2, Booted)";
+    "new_state" = 3;
+    notification = "device_state";
+    "prev_state" = 2;
+}
+16:22:08.847 Xcode[41534:946433] /Users/shivamkapur/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone X (C3529968-A2DF-4E45-88D3-E4085FD2D7FD, iOS 11.2, Booted)";
+    "new_state" = 3;
+    notification = "device_state";
+    "prev_state" = 2;
+}
+16:22:08.847 Xcode[41534:946433] /Users/shivamkapur/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone X (C3529968-A2DF-4E45-88D3-E4085FD2D7FD, iOS 11.2, Booted)";
+    "new_state" = 3;
+    notification = "device_state";
+    "prev_state" = 2;
+}
+16:22:08.848 Xcode[41534:946433] /Users/shivamkapur/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone X (C3529968-A2DF-4E45-88D3-E4085FD2D7FD, iOS 11.2, Booted)";
+    "new_state" = 3;
+    notification = "device_state";
+    "prev_state" = 2;
+}
+16:22:08.848 Xcode[41534:946433] /Users/shivamkapur/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone X (C3529968-A2DF-4E45-88D3-E4085FD2D7FD, iOS 11.2, Booted)";
+    "new_state" = 3;
+    notification = "device_state";
+    "prev_state" = 2;
+}
+16:22:08.848 Xcode[41534:946433] /Users/shivamkapur/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone X (C3529968-A2DF-4E45-88D3-E4085FD2D7FD, iOS 11.2, Booted)";
+    "new_state" = 3;
+    notification = "device_state";
+    "prev_state" = 2;
+}
+16:22:08.848 Xcode[41534:946433] /Users/shivamkapur/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone X (C3529968-A2DF-4E45-88D3-E4085FD2D7FD, iOS 11.2, Booted)";
+    "new_state" = 3;
+    notification = "device_state";
+    "prev_state" = 2;
+}
+16:22:08.848 Xcode[41534:946433] /Users/shivamkapur/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone X (C3529968-A2DF-4E45-88D3-E4085FD2D7FD, iOS 11.2, Booted)";
+    "new_state" = 3;
+    notification = "device_state";
+    "prev_state" = 2;
+}
+16:22:08.848 Xcode[41534:946433] /Users/shivamkapur/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone X (C3529968-A2DF-4E45-88D3-E4085FD2D7FD, iOS 11.2, Booted)";
+    "new_state" = 3;
+    notification = "device_state";
+    "prev_state" = 2;
+}
+16:22:08.848 Xcode[41534:946433] /Users/shivamkapur/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone X (C3529968-A2DF-4E45-88D3-E4085FD2D7FD, iOS 11.2, Booted)";
+    "new_state" = 3;
+    notification = "device_state";
+    "prev_state" = 2;
+}
+16:22:08.849 Xcode[41534:946433] /Users/shivamkapur/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone X (C3529968-A2DF-4E45-88D3-E4085FD2D7FD, iOS 11.2, Booted)";
+    "new_state" = 3;
+    notification = "device_state";
+    "prev_state" = 2;
+}
+16:22:08.849 Xcode[41534:946433] /Users/shivamkapur/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone X (C3529968-A2DF-4E45-88D3-E4085FD2D7FD, iOS 11.2, Booted)";
+    "new_state" = 3;
+    notification = "device_state";
+    "prev_state" = 2;
+}
+16:22:08.850 Xcode[41534:946433] /Users/shivamkapur/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone X (C3529968-A2DF-4E45-88D3-E4085FD2D7FD, iOS 11.2, Booted)";
+    "new_state" = 3;
+    notification = "device_state";
+    "prev_state" = 2;
+}
+16:22:08.850 Xcode[41534:946433] /Users/shivamkapur/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone X (C3529968-A2DF-4E45-88D3-E4085FD2D7FD, iOS 11.2, Booted)";
+    "new_state" = 3;
+    notification = "device_state";
+    "prev_state" = 2;
+}
+16:22:08.850 Xcode[41534:946433] /Users/shivamkapur/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone X (C3529968-A2DF-4E45-88D3-E4085FD2D7FD, iOS 11.2, Booted)";
+    "new_state" = 3;
+    notification = "device_state";
+    "prev_state" = 2;
+}
+16:22:08.850 Xcode[41534:946433] /Users/shivamkapur/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone X (C3529968-A2DF-4E45-88D3-E4085FD2D7FD, iOS 11.2, Booted)";
+    "new_state" = 3;
+    notification = "device_state";
+    "prev_state" = 2;
+}
+16:22:09.204 Xcode[41534:946433] Test operation failure: Test operation was canceled.
+16:22:09.204 Xcode[41534:946433] _finishWithError:Error Domain=IDETestOperationsObserverErrorDomain Code=14 "Test operation was canceled." UserInfo={NSLocalizedDescription=Test operation was canceled.}
